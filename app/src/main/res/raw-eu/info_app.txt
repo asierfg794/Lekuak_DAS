@@ -1,0 +1,7 @@
+Ongi etorri Lekuak aplikaziora!
+
+Aplikazio honen bidez, zure tokirik gogokoenak edo bisitatzeke dituzunak gorde ditzakezu, baita egindako bisitak erregistratu ere.
+
+Leku berri bat edo bisita bat gehitu dezakezu botoi flotagarria sakatuz (+). Leku bateko maparen ikonoa sakatu Google Mapsen bilatzeko, txartela sakatu lekua editatzeko, edo sakatuta mantendu ezabatzeko.
+
+Gogoratu ezkerreko menua ireki dezakezula bisitatzeke dituzun lekuak iragazteko, egindako bisita guztien erregistroa ikusteko edo zure estatistikak errepasatzeko.

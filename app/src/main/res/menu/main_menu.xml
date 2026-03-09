@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_todos"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/todos_los_lugares" />
+        <item
+            android:id="@+id/nav_pendientes"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="@string/titulo_pendientes" />
+        <item
+            android:id="@+id/nav_visitas"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/titulo_visitas" />
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/titulo_stats" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/titulo_ajustes" />
+    </group>
+</menu>

@@ -1,0 +1,7 @@
+¡Bienvenido a Lekuak!
+
+Esta aplicación te permite guardar tus lugares favoritos o aquellos que tienes pendientes de visitar, así como registrar las visitas a estos.
+
+Puedes añadir un nuevo lugar o una visita pulsando el botón flotante (+). Pulsa en el icono del mapa de un lugar de la lista para buscarlo en Google Maps, pulsa en la tarjeta para editarlo, o mantenla pulsada para eliminarlo.
+
+Recuerda que puedes abrir el menú de la izquierda para filtrar tus lugares pendientes, para ver el registro de todas tus visitas realizadas o para ver tus estadísticas.

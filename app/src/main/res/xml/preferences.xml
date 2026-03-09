@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/titulo_ajustes">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="modo_oscuro_activado"
+            app:title="@string/modo_oscuro" />
+
+        <Preference
+            app:key="cambiar_idioma_pref"
+            app:title="@string/cambiar_idioma" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sobre_la_aplicacion">
+
+        <!-- Usamos app:singleLineTitle="false" para permitir que el texto crezca -->
+        <Preference
+            app:key="info_app_pref"
+            app:selectable="false"
+            app:singleLineTitle="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

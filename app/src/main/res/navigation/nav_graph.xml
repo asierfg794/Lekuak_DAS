@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/schemas/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_todos">
+
+    <fragment
+        android:id="@+id/nav_todos"
+        android:name="com.example.lekuak.view.LugarListFragment"
+        android:label="@string/mis_lugares">
+        <argument android:name="soloPendientes" app:argType="boolean" android:defaultValue="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_pendientes"
+        android:name="com.example.lekuak.view.LugarListFragment"
+        android:label="@string/titulo_pendientes">
+        <argument android:name="soloPendientes" app:argType="boolean" android:defaultValue="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_visitas"
+        android:name="com.example.lekuak.view.VisitaListFragment"
+        android:label="@string/titulo_visitas" />
+
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="com.example.lekuak.view.StatsFragment"
+        android:label="@string/titulo_stats" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.lekuak.view.SettingsFragment"
+        android:label="@string/titulo_ajustes" />
+</navigation>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Lekuak</string>
+    <string name="navigation_drawer_open">Menua ireku</string>
+    <string name="navigation_drawer_close">Menua itxi</string>
+    <string name="cambiar_idioma">Hizkuntza aldatu Gaztelerara</string>
+    <string name="modo_oscuro">Modu iluna</string>
+    <string name="titulo_ajustes">Ezarpenak</string>
+    <string name="titulo_stats">Estatistikak</string>
+    <string name="titulo_pendientes">Bisitatzeke</string>
+    <string name="titulo_visitas">Nire Bisitak</string>
+    <string name="mis_lugares">Nire lekuak</string>
+    <string name="anadir_lugar">Lekua gehitu</string>
+    <string name="nombre_del_lugar">Lekuaren izena</string>
+    <string name="direccion_o_ubicacion">Helbidea edo kokapena</string>
+    <string name="ver_en_mapa">Mapan ikusi</string>
+    <string name="categoria">Kategoria</string>
+    <string name="editar">Editatu</string>
+    <string name="nueva_visita">Bisita erregistratu</string>
+    <string name="historial_visitas">Bisiten historia</string>
+    <string name="fecha_visita">Bisitatze data</string>
+    <string name="valoracion">Balorazioa (1–5)</string>
+    <string name="notas_visita">Bisitaren iruzkinak</string>
+    <string name="resumen_de_lekuak">Lekuen laburpena</string>
+    <string name="total">Lekuak guztira: </string>
+    <string name="visitados">Bisitatutakoak: </string>
+    <string name="nuevo_lugar">Leku Berria</string>
+    <string name="editar_lugar">Lekua Editatu</string>
+    <string name="guardar">Gorde</string>
+    <string name="cancelar">Ezeztatu</string>
+    <string name="estado_visitado">Bisitatuta</string>
+    <string name="estado_pendiente">Bisitatzeke</string>
+    <string name="todos_los_lugares">Leku guztiak</string>
+    <string name="eliminar_lugar">Lekua ezabatu</string>
+    <string name="mensaje_eliminar">Ziur zaude %1$s ezabatu nahi duzula?</string>
+    <string name="eliminar_visita">Bisita ezabatu</string>
+    <string name="mensaje_eliminar_visita">Ziur zaude bisita hau ezabatu nahi duzula?</string>
+    <string name="eliminar">Ezabatu</string>
+    <string name="notif_titulo">Leku berria aurkituta!</string>
+    <string name="notif_cuerpo">"%1$s" gehitu duzu zure Lekuetan.</string>
+    <string name="sobre_la_aplicacion">Aplikazioari buruz:</string>
+    <string name="crea_un_lugar_primero">Sortu leku bat lehenago</string>
+    <string name="valoracion_media">Batez besteko balorazioa: </string>
+    <string name="lugar_top">Lekurik bisitatuena: </string>
+    <string name="ultima_visita">Azken bisita erregistratua: </string>
+    <string name="sin_datos">Daturik gabe</string>
+    <string-array name="categorias_array">
+        <item>Jatetxea</item>
+        <item>Taberna</item>
+        <item>Denda</item>
+        <item>Natura</item>
+        <item>Kultura</item>
+        <item>Aisia</item>
+        <item>Beste bat</item>
+    </string-array>
+</resources>

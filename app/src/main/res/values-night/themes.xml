@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Lekuak" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores principales Material 3 Modo Oscuro -->
+        <item name="colorPrimary">@color/green_secondary</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimaryContainer">@color/green_primary_variant</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <item name="colorSecondary">@color/green_secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondaryContainer">@color/green_dark_container</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
+
+        <!-- Colores de superficie para forzar tonos verdes oscuros en lugar de lilas -->
+        <item name="colorSurface">@color/green_dark_surface</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorSurfaceVariant">@color/green_dark_container</item>
+        <item name="colorOnSurfaceVariant">@color/green_secondary</item>
+
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+</resources>
