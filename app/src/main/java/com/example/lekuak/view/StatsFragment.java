@@ -39,6 +39,14 @@ public class StatsFragment extends Fragment {
         recargar();
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        if (executor != null) {
+            executor.shutdown();
+        }
+    }
+
     public void recargar() {
         if (getView() == null) return;
 

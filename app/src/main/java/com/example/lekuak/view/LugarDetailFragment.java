@@ -94,6 +94,14 @@ public class LugarDetailFragment extends Fragment implements VisitaDialogFragmen
         });
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        if (executor != null) {
+            executor.shutdown();
+        }
+    }
+
     private void cargarVisitas() {
         executor.execute(new Runnable() {
             @Override

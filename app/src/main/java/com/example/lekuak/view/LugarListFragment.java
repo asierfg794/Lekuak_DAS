@@ -86,6 +86,14 @@ public class LugarListFragment extends Fragment {
         });
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        if (executor != null) {
+            executor.shutdown();
+        }
+    }
+
     public void recargar() {
         if (executor == null) return;
         executor.execute(new Runnable() {

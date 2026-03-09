@@ -28,9 +28,6 @@ public class Lugar implements Serializable {
         return nombre;
     }
 
-    public String getDescripcion(){
-        return categoria;
-    }
 
     public static String getTranslatedCategoria(Context context, String categoriaOriginal) {
         if (categoriaOriginal == null) return "";
